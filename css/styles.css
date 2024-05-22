@@ -350,6 +350,7 @@ button {
     flex-direction: column;
 }
 .footer-logo {
+    /* display: inline-block; */
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -362,7 +363,6 @@ button {
 
 .footer-logo .span-logo {
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .footer-text {
