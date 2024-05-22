@@ -358,14 +358,11 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo .span-logo {
     color: #f4f4fd;
-    display: inline-block;
-}
-
-.test {
     display: inline-block;
 }
 
