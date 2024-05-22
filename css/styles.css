@@ -349,6 +349,11 @@ button {
 .footer .container {
     flex-direction: column;
 }
+
+.footer-logo {
+    display: inline-block;
+}
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -358,7 +363,6 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .footer-logo .span-logo {
