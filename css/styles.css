@@ -56,7 +56,7 @@ button {
     display: flex;
     justify-content: center;
     width: 1158px;
-    padding: 15px;
+
     margin: 0 auto;
 }
 
@@ -224,6 +224,7 @@ button {
 
 .team .container {
     flex-direction: column;
+    padding: 15px;
 }
 .team-title {
     font-weight: 700;
@@ -280,6 +281,7 @@ button {
 
 .porfolio .container {
     flex-direction: column;
+    padding: 15px;
 }
 .portfolio-title {
     font-weight: 700;
