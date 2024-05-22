@@ -185,6 +185,9 @@ button {
 
 /* #region BENEFITS */
 
+.benefits .container {
+    padding: 15px;
+}
 .benefits {
     padding: 120px 156px;
 }
