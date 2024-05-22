@@ -56,7 +56,7 @@ button {
     display: flex;
     justify-content: center;
     width: 1158px;
-
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -80,6 +80,7 @@ button {
     color: #2e2f42;
     display: flex;
     padding: 24px 156px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -88,6 +89,7 @@ button {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -112,6 +114,10 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-link {
+    padding: 24px 0;
 }
 
 .header-link:hover,
@@ -144,7 +150,7 @@ button {
 
 .hero {
     background-color: #2e2f42;
-    padding: 188px 472px;
+    padding: 188px 0;
     display: flex;
 }
 
@@ -160,7 +166,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     display: flex;
 }
 
@@ -175,6 +181,8 @@ button {
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn-hero:hover,
@@ -185,11 +193,8 @@ button {
 
 /* #region BENEFITS */
 
-.benefits .container {
-    padding: 15px;
-}
 .benefits {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 .benefits-list {
     display: flex;
@@ -222,12 +227,11 @@ button {
 .team {
     background-color: #f4f4fd;
     color: #2e2f42;
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .team .container {
     flex-direction: column;
-    padding: 15px;
 }
 .team-title {
     font-weight: 700;
@@ -247,6 +251,7 @@ button {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:last-child {
@@ -278,13 +283,12 @@ button {
 /* #region PORTFOLIO */
 
 .porfolio {
-    padding: 120px 156px;
+    padding: 120px 0 120px 0;
     color: #2e2f42;
 }
 
 .porfolio .container {
     flex-direction: column;
-    padding: 15px;
 }
 .portfolio-title {
     font-weight: 700;
@@ -338,7 +342,8 @@ button {
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    padding: 100px 156px;
+
+    padding: 100px 0;
 }
 
 .footer .container {
@@ -353,7 +358,7 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: block;
+    display: inline-block;
 }
 
 .footer-logo .span-logo {
